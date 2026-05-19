@@ -15,6 +15,7 @@ addBtn.addEventListener("click", function () {
 
   li.textContent = task;
 
+
   const deleteBtn = document.createElement("button");
 
   deleteBtn.textContent = "X";
