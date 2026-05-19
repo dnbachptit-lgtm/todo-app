@@ -11,15 +11,13 @@ addBtn.addEventListener("click", function () {
     return;
   }
 
-  // tạo thẻ li
   const li = document.createElement("li");
 
   li.textContent = task;
 
-  // tạo nút xóa
   const deleteBtn = document.createElement("button");
 
-  deleteBtn.textContent = "Xóa";
+  deleteBtn.textContent = "X";
 
   deleteBtn.addEventListener("click", function () {
     li.remove();
